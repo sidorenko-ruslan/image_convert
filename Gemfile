@@ -49,10 +49,11 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
-  gem 'capistrano', '~> 3.7'
-  gem 'capistrano-rails', '~> 1.2'
+  gem 'capistrano'
+  gem 'capistrano-rails'
   gem 'capistrano-yarn'
   gem 'capistrano3-puma'
+  gem 'capistrano-bundler'
 end
 
 group :test do
