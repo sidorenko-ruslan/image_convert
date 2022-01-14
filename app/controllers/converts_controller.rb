@@ -5,6 +5,10 @@ require 'tmpdir'
 class ConvertsController < ApplicationController
   skip_before_action :verify_authenticity_token
 
+  def index
+
+  end
+
   def perform
     render status: 404 and return unless params['image_data']
 
